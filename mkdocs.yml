@@ -22,16 +22,16 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  - Overview: 01-Overview/index.md
-  - Get Started: 02-Get Started/index.md
-  - Core: 03-Core/index.md
-  - Maps: 04-Maps/index.md
-  - Positioning & Sensors: 05-Positioning & Sensors/index.md
-  - Search: 06-Search/index.md
-  - Routing: 07-Routing/index.md
-  - Navigation: 08-Navigation/index.md
-  - Offline: 09-Offline/index.md
-  - Alarms: 10-Alarms/index.md
+  - Overview: 01-Overview/01-index.md
+  - Get Started: 02-Get Started/01-index.md
+  - Core: 03-Core/01-index.md
+  - Maps: 04-Maps/01-index.md
+  - Positioning & Sensors: 05-Positioning & Sensors/01-index.md
+  - Search: 06-Search/01-index.md
+  - Routing: 07-Routing/01-index.md
+  - Navigation: 08-Navigation/01-index.md
+  - Offline: 09-Offline/01-index.md
+  - Alarms: 10-Alarms/01-index.md
   - Driver Behaviour: 11-Driver Behaviour.md
   - Public Transit Stops: 12-Public Transit Stops.md
   - Location Wikipedia: 13-Location Wikipedia.md
