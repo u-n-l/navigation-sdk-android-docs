@@ -31,7 +31,7 @@ Instructions are represented as arrows on the map and can be displayed by using 
 
 ```
 
-![Turn right arrow instruction](../assets/images/example_android_display_route_instruction-cbad713a06ff6b984b9bf0e36b985b49.png "Turn right arrow instruction")
+![Turn right arrow instruction](../../assets/images/example_android_display_route_instruction-cbad713a06ff6b984b9bf0e36b985b49.png "Turn right arrow instruction")
 
 Turn right arrow instruction
 
