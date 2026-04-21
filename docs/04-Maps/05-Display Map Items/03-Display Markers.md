@@ -2,7 +2,7 @@
 
 The base class for the marker hierarchy is `UnlMarker`. It encapsulates coordinates assigned to a specific part. Multiple coordinates can be added to the same marker and be separated into different parts. If no part is specified, the coordinates are added to a default part, indexed as 0. The coordinates are stored in a list-like structure, where you can specify their index explicitly. By default, the index is set to -1, meaning the coordinate will be appended to the end of the list.
 
-![Display marker with coordinates on different parts](../assets/images/example_android_polyline_marker_part1-10444789a0e20d05469cc9feaaac91f8.png "Displaying a marker with coordinates separated into different parts")
+![Display marker with coordinates on different parts](../assets/images/example_android_polyline_marker_part1-10444789a0e20d05469cc9feaaac91f8.png)
 
 Displaying a marker with coordinates separated into different parts
 
