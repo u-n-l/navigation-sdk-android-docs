@@ -289,6 +289,8 @@ if (errorStop != UnlError.NoError) {
 >
 >The `Recorder` will only save data explicitly defined in the `types` list, any other data will be ignored.
 
+
+
 > 🚨 **DANGER**
 >
 > The `startRecording` and `stopRecording` methods should be called appropriately to ensure proper execution. Otherwise it may lead to unexpected behavior.
@@ -1079,9 +1081,9 @@ The `RecorderBookmarks` class for enhanced log management:
 
 In the following class diagram you can see the main classes used by the `RecorderBookmarks` and the relationships between them:
 
-![RecorderBookmarks](/assets/images/RecorderBookmarks_UML_image-e5268bad09d3f49275affb52d1bdac87.png "RecorderBookmarks")
+![RecorderBookmarks](../assets/images/RecorderBookmarks_UML_image-e5268bad09d3f49275affb52d1bdac87.png "RecorderBookmarks")
 
-**RecorderBookmarks**
+RecorderBookmarks
 
 ### Export logs[​](#export-logs "Direct link to Export logs")
 
@@ -1258,6 +1260,7 @@ if (!logList.isEmpty()) {
 >
 > Protected logs will not be automatically deleted by the SDK's storage management system, even when disk space limits are reached.
 
+
 > 🚨 **DANGER**
 >
 > Be careful when using `deleteLog` as it permanently removes the recording file from storage.
@@ -1310,7 +1313,7 @@ The metadata within a `LogMetadata` object contains:
 * **soundMarks**: A list of recorded soundmarks.
 * **availableDataTypes**: List of the available data types in this log.
 
-To visualize the recorded route, a `UnlPath` object can be constructed using the route coordinates from the `LogMetadata`. This path can then be displayed on a map. For more details, refer to the documentation on the [path entity](/03-Core/02-Base%20Entities.md#path) and [display paths](/04-Maps/05-Display%20Map%20Items/08-Display%20Paths.md).
+To visualize the recorded route, a `UnlPath` object can be constructed using the route coordinates from the `LogMetadata`. This path can then be displayed on a map. For more details, refer to the documentation on the [path entity](../03-Core/02-Base%20Entities.md#path) and [display paths](../04-Maps/05-Display%20Map%20Items/08-Display%20Paths.md).
 
 > 📝 **INFO**
 >
