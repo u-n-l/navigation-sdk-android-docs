@@ -6,7 +6,7 @@ It influences route planning by marking certain paths or zones as unavailable fo
 
 Roadblocks can be **path-based** (defined by a sequence of coordinates) or **area-based** (covering a geographic region), and may be either **temporary** or **persistent**, depending on their intended duration. Persistent roadblocks remain after a SDK uninitialization. Temporary roadblocks are short-lived.
 
-The primary entity responsible for representing roadblocks is the `UnlTrafficEvent` class. Check the [Traffic Events guide](/03-Core/10-Traffic%20Events.md) for more details. Roadblocks are mainly managed through the `UnlTraffic` class.
+The primary entity responsible for representing roadblocks is the `UnlTrafficEvent` class. Check the [Traffic Events guide](../03-Core/10-Traffic%20Events.md) for more details. Roadblocks are mainly managed through the `UnlTraffic` class.
 
 While some roadblocks are provided in real time by online data from  UNL servers, users can also define their own **user roadblocks** to customize routing behavior.
 
@@ -14,7 +14,7 @@ If the applied style includes traffic data and traffic display is enabled (`UnlM
 
 > 💡 **TIP**
 >
-> Adding/removing user roadblocks affects only the current user and does not impact other users' routes. To create reports that are visible to all users, refer to the [Social Reports guide](/01-Overview/04-Todo.md).
+> Adding/removing user roadblocks affects only the current user and does not impact other users' routes. To create reports that are visible to all users, refer to the [Social Reports guide](../01-Overview/04-Todo.md).
 
 ## Configure the traffic service[​](#configure-the-traffic-service "Direct link to Configure the traffic service")
 
