@@ -28,7 +28,7 @@ The supported sensor data types can be summarized in the following table:
 | **NMEA Chunk**        | Raw navigation data in NMEA sentence format, typically from GNSS receivers for high-precision tracking. Only available on Android devices.      |
 | **Unknown**           | A fallback type used when the source of the data cannot be determined.                                                                          |
 
-More details about the `UnlPositionData` and `ImprovedPositionData` classes are available [here](/03-Core/03-Positions.md).
+More details about the `UnlPositionData` and `ImprovedPositionData` classes are available [here](../03-Core/03-Positions.md).
 
 > 🚨 **Danger**
 >
@@ -38,9 +38,9 @@ More details about the `UnlPositionData` and `ImprovedPositionData` classes are 
 
 A simplified view of the main classes used to work with data sources can be seen in the following diagram:
 
-![DataSource](/assets/images/DataSource_class_diagram-679e380cbbd04e201cdcd82495067174.png "DataSource")
+![DataSource](../assets/images/DataSource_class_diagram-679e380cbbd04e201cdcd82495067174.png "DataSource")
 
-**DataSource**
+DataSource
 
 There are multiple possible data types, represented by the `EDataType` enum. Each sensor value is stored in a class that is derived from `UnlSenseData`. Two such classes are `UnlPositionData` and `UnlAccelerationData`.
 
@@ -50,7 +50,7 @@ You can create a `DataSource` by using one of the static methods in `DataSourceF
 
 * `DataSourceFactory.produceLive()`: Creates a data source that collects data from the device's built-in sensors in real time. This is the most common use case for applications relying on actual sensor input.
 * `DataSourceFactory.produceExternal(availableDataTypes)`: Creates a custom data source that accepts user-supplied data. You can feed data into this source via the `pushData` method.
-* `DataSourceFactory.produceLog(path)`: Creates a data source that replays data from a previously recorded session (log file: gpx, nmea). This is useful for debugging, training, or offline data processing. See the [Recorder docs](/05-Positioning%20&%20Sensors/06-Recorder.md) for information about recording data.
+* `DataSourceFactory.produceLog(path)`: Creates a data source that replays data from a previously recorded session (log file: gpx, nmea). This is useful for debugging, training, or offline data processing. See the [Recorder docs](../05-Positioning%20&%20Sensors/06-Recorder.md) for information about recording data.
 * `DataSourceFactory.produceSimulation(route)`: Creates a data source that simulates movement along a specified route. It can be used for UI prototyping, testing, or feature validation without relying on real-world movement.
 
 The first two types (live and external) are categorized under `EUnlDataSourceType.Live`, whereas the latter two (log and simulation) fall under `EUnlDataSourceType.Playback`.
@@ -222,9 +222,9 @@ To control playback position, use `playback.currentPosition`, which represents t
 
 Positions from a `DataSource` can be tracked on a map by rendering a marker polyline between relevant map points. This is done by using the `UnlMapView` methods directly.
 
-![Tracked path](/assets/images/example_android_track_positions-75ec1472e633842b7f5d732800553d20.png "Tracked path")
+![Tracked path](../assets/images/example_android_track_positions-75ec1472e633842b7f5d732800553d20.png "Tracked path")
 
-**Tracked path**
+Tracked path
 
 The following code illustrates the functionality shown in the screenshot above.
 
