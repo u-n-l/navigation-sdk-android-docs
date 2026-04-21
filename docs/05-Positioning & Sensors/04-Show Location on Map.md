@@ -2,9 +2,9 @@
 
 The location of the device is shown by default using an arrow position tracker. If the data source has been successfully set and the required permissions were granted then the position tracker showing the current location should be visible on the map as an arrow.
 
-![Default position tracker](/assets/images/example_android_position_default-2186c936d7348e9b661554007cdf4265.png "Default position tracker showing current position")
+![Default position tracker](../assets/images/example_android_position_default-2186c936d7348e9b661554007cdf4265.png "Default position tracker showing current position")
 
-**Default position tracker showing current position**
+Default position tracker showing current position
 
 At the moment it is not possible to have multiple position trackers on the map.
 
@@ -145,7 +145,7 @@ The fields defined in `FollowPositionPreferences` take effect only when the came
 | accuracyCircleVisible             | Boolean | Specifies if the accuracy circle should be visible (regardless if is in follow position mode or not) |
 | isTrackObjectFollowingMapRotation | Boolean | Specifies if the track object should follow the map rotation                                         |
 
-Please refer to the [adjust map guide](/04-Maps/03-Adjust%20the%20Map%20View.md) for more information about the `viewAngle`, `zoomLevel` and `cameraFocus` fields.
+Please refer to the [adjust map guide](../04-Maps/03-Adjust%20the%20Map%20View.md) for more information about the `viewAngle`, `zoomLevel` and `cameraFocus` fields.
 
 If no zoom level is set, a default value is used.
 
@@ -190,7 +190,7 @@ if (prefs != null) {
 
 ```
 
-![Accuracy circle turner on](/assets/images/example_android_position_circle-93606e5623b16383fad8428ce2f6fe4a.png "Accuracy circle turner on")
+![Accuracy circle turner on](../assets/images/example_android_position_circle-93606e5623b16383fad8428ce2f6fe4a.png "Accuracy circle turner on")
 
 **Accuracy circle turned on**
 
@@ -335,7 +335,7 @@ At this moment it is not possible to set different icons for different maps.
 >
 > Make sure the resource (in this example `navArrow.png`) is correctly placed in the `assets` folder. See the [Android documentation](https://developer.android.com/guide/topics/resources/providing-resources) for more information.
 
-![Custom position tracker](/assets/images/example_android_position_custom_arrow-faa4bc8336d78a08f96198f9b80bbb43.png "Custom position tracker")
+![Custom position tracker](../assets/images/example_android_position_custom_arrow-faa4bc8336d78a08f96198f9b80bbb43.png "Custom position tracker")
 
 **Custom position tracker**
 
