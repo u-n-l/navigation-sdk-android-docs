@@ -1,6 +1,5 @@
 site_name: Navigation SDK Documentation for Android
 site_url: https://u-n-l.github.io/navigation-sdk-android-docs/
-
 theme:
   name: material
   logo: assets/UNL logo_white.svg
@@ -13,21 +12,16 @@ theme:
     - navigation.expand
     - navigation.top
     - search.suggest
-    - search.highlight 
-
+    - search.highlight
 extra_css:
   - styles/extra.css
-
 plugins:
   - search
-
 markdown_extensions:
   - admonition
   - toc:
       permalink: true
-  - pymdownx.superfences
   - pymdownx.details
-
 nav:
   - Home: index.md
   - Overview: 01-Overview/01-index.md
@@ -47,5 +41,3 @@ nav:
   - Settings Service: 15-Settings Service.md
   - Social Reports: 16-Social Reports.md
   - Timezone Service: 17-Timezone Service.md
-  
-
