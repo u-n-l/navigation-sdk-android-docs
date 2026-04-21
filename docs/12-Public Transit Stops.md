@@ -95,7 +95,7 @@ mapView.setOnLongDown(screenPosition -> {
 >
 > You can also obtain public transit overlay items by performing an overlay search using `ECommonOverlayId.PublicTransport`. Once you retrieve the corresponding `OverlayItem`s, use their `getPreviewExtendedData` method to access the stop information.
 >
-> See the [Search on overlays](/06-Search/02-Get%20Started%20with%20Search.md#search-on-overlays) guide for more details.
+> See the [Search on overlays](../06-Search/02-Get%20Started%20with%20Search.md#search-on-overlays) guide for more details.
 
 > 🚨 **DANGER**
 >
