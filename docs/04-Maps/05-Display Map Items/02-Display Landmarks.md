@@ -144,9 +144,9 @@ if (errorCode == UnlError.NoError && landmarkStore != null) {
 
 ```
 
-![Landmarks displayed](/assets/images/example_android_add_landmarks1-e23f9a097f6485af4f047e14090a19d9.png "Landmarks displayed")
+![Landmarks displayed](../assets/images/example_android_add_landmarks1-e23f9a097f6485af4f047e14090a19d9.png "Landmarks displayed")
 
-**Landmarks displayed**
+Landmarks displayed
 
 <br />
 
