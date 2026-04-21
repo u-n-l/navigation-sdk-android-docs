@@ -223,7 +223,7 @@ The method returns an error code which can be checked with `UnlError.isError()`.
 
 > 🚨 **DANGER**
 >
-> Most report categories require the use of the `prepareReporting` method, ensuring higher report accuracy by confirming the user's proximity to the reported location. See the [Get started with Positioning](/05-Positioning%20&%20Sensors/03-Get%20Started%20with%20Positioning.md) guide for more information about configuring the data source.
+> Most report categories require the use of the `prepareReporting` method, ensuring higher report accuracy by confirming the user's proximity to the reported location. See the [Get started with Positioning](../05-Positioning%20&%20Sensors/03-Get%20Started%20with%20Positioning.md) guide for more information about configuring the data source.
 >
 > The `prepareReportingWithCoordinates` method works only for `Weather Hazard` categories and subcategories contained within.
 
