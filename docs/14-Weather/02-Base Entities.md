@@ -12,9 +12,9 @@ This class is responsible for retaining data such as the forecast update timesta
 | `coordinates` | `UnlCoordinates?`    | Geographic location             |
 | `forecast`    | `ConditionsList?` | Forecast data                   |
 
-![Current Weather Forecase Explained](/assets/images/example_android_weather_base_entities-1c1419ae963055675f6bb613ee1c3d61.png "Current weather forecast explained")
+![Current Weather Forecase Explained](../assets/images/example_android_weather_base_entities-1c1419ae963055675f6bb613ee1c3d61.png "Current weather forecast explained")
 
-**Current Weather Forecast explained**
+Current Weather Forecast explained
 
 ## Conditions class[​](#conditions-class "Direct link to Conditions class")
 
