@@ -261,9 +261,9 @@ if (mapView != null && mapView.getPreferences() != null) {
 
 Doing this will result in a crosshair-like icon in center of screen.
 
-![Displaying a cursor](/assets/images/example_android_display_cursor_street_name1-e51059b22fec264d7359553f06dcb2e7.png "Displaying a cursor")
+![Displaying a cursor](../assets/images/example_android_display_cursor_street_name1-e51059b22fec264d7359553f06dcb2e7.png "Displaying a cursor")
 
-**Displaying a cursor**
+Displaying a cursor
 
 ### Landmark selection[​](#landmark-selection "Direct link to Landmark selection")
 
@@ -341,13 +341,9 @@ if (mapView != null) {
 
 ```
 
-> 📝 **Info**
->
-> The selected landmarks are returned by the `cursorSelectionLandmarks` property, which is accessed after updating the cursor's position. This step is essential because the SDK only detects landmarks that are positioned directly under the cursor.
+> 📝 **Info**: The selected landmarks are returned by the `cursorSelectionLandmarks` property, which is accessed after updating the cursor's position. This step is essential because the SDK only detects landmarks that are positioned directly under the cursor.
 
-> 🚨 **Danger**
->
-> The cursor screen position is also used for determining the default screen position for centering (unless other values are specified). Modifying the screen position might change the behavior of centering in unexpected ways.
+> 🚨 **Danger**: The cursor screen position is also used for determining the default screen position for centering (unless other values are specified). Modifying the screen position might change the behavior of centering in unexpected ways.
 
 ### Street selection[​](#street-selection "Direct link to Street selection")
 
@@ -394,9 +390,9 @@ if (mapView != null) {
 
 Street name can then be displayed on screen. This is the result:
 
-![Displaying a cursor selected street name](/assets/images/example_android_display_cursor_street_name2-1bf8213e189b1f7abb8c270f981cfcbc.png "Displaying a cursor selected street name")
+![Displaying a cursor selected street name](../assets/images/example_android_display_cursor_street_name2-1bf8213e189b1f7abb8c270f981cfcbc.png "Displaying a cursor selected street name")
 
-**Displaying a cursor selected street name**
+Displaying a cursor selected street name
 
 <br/>
 
