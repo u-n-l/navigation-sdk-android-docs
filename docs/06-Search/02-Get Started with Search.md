@@ -281,7 +281,7 @@ int result = searchService.searchByFilter(
 
 > 🚨 **DANGER**
 >
-> The landmark store **retains** the landmarks added to it across sessions, until the app is **uninstalled**. This means a previously created landmark store with the same name might already exist in persistent storage and may contain pre-existing landmarks. For more details, refer to the [documentation on UnlLandmarkStore](/03-Core/04-Landmarks.md#landmark-stores).
+> The landmark store **retains** the landmarks added to it across sessions, until the app is **uninstalled**. This means a previously created landmark store with the same name might already exist in persistent storage and may contain pre-existing landmarks. For more details, refer to the [documentation on UnlLandmarkStore](../03-Core/04-Landmarks.md#landmark-stores).
 
 > 💡 **TIP**
 >
@@ -289,7 +289,7 @@ int result = searchService.searchByFilter(
 
 ### Search on overlays[​](#search-on-overlays "Direct link to Search on overlays")
 
-You can perform searches on overlays by specifying the overlay ID. It is recommended to consult the [Overlay documentation](/03-Core/06-Overlays.md) for a deeper understanding and details about proper usage.
+You can perform searches on overlays by specifying the overlay ID. It is recommended to consult the [Overlay documentation](../03-Core/06-Overlays.md) for a deeper understanding and details about proper usage.
 
 In the example below, we demonstrate how to search within items from the safety overlay. Custom overlays can also be used, provided they are activated in the applied map style:
 
@@ -497,10 +497,10 @@ int result = searchService.searchByFilter("N", reference);
 
 ## Show the results on the map[​](#show-the-results-on-the-map "Direct link to Show the results on the map")
 
-In most use cases the landmarks found by search are already present on the map. If the search was made on custom landmark stores see the [add map landmarks](/04-Maps/05-Display%20Map%20Items/02-Display%20Landmarks.md#display-custom-landmarks).
+In most use cases the landmarks found by search are already present on the map. If the search was made on custom landmark stores see the [add map landmarks](../04-Maps/05-Display%20Map%20Items/02-Display%20Landmarks.md#display-custom-landmarks).
 
-To zoom to a landmark found via search, we can use `UnlMapView.centerOnCoordinates()` on the coordinates of the landmark found (`UnlLandmark.coordinates`). See the documentation for [map centering](/04-Maps/03-Adjust%20the%20Map%20View.md#map-centering) for more info.
+To zoom to a landmark found via search, we can use `UnlMapView.centerOnCoordinates()` on the coordinates of the landmark found (`UnlLandmark.coordinates`). See the documentation for [map centering](../04-Maps/03-Adjust%20the%20Map%20View.md#map-centering) for more info.
 
 ## Change the language of the results[​](#change-the-language-of-the-results "Direct link to Change the language of the results")
 
-The language of search results and category names is determined by the `UnlSdkSettings.language` setting. Check the [the internationalization guide](/01-Overview/04-Todo.md) section for more details.
+The language of search results and category names is determined by the `UnlSdkSettings.language` setting. Check the [the internationalization guide](../01-Overview/04-Todo.md) section for more details.
