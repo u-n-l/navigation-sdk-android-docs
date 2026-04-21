@@ -2,7 +2,7 @@
 
 The Navigation SDK for Android provides developers with comprehensive tools to build a robust turn-by-turn navigation system. This functionality enables applications to track the current device location relative to a predefined route and deliver real-time navigational guidance.
 
-![Navigating On Route](/assets/images/example_android_navigation-6c30ac51bb2bfd3de0444c04f0830db6.png "Navigating on route")
+![Navigating On Route](../assets/images/example_android_navigation-6c30ac51bb2bfd3de0444c04f0830db6.png "Navigating on route")
 
 **Navigating on route**
 
@@ -31,7 +31,7 @@ The SDK offers two methods for navigating a route:
 If we are in navigation mode, the position is provided by `UnlPositionService`. It can use:
 
 * **Real GPS Data:** When `UnlPositionService.setLiveDataSource` is called, the service will use real-time GPS data to provide position updates. This requires the appropriate application permissions. Additionally, the application must programmatically request these permissions from the user.
-* **Custom Position Data:** In this mode, a custom data source can be configured to supply position updates. No permissions are required in this case, as the positions are provided through the custom source rather than the device's GPS. If you want to use a custom position take a look at [Custom positioning](/05-Positioning%20&%20Sensors/05-Custom%20Positioning.md).
+* **Custom Position Data:** In this mode, a custom data source can be configured to supply position updates. No permissions are required in this case, as the positions are provided through the custom source rather than the device's GPS. If you want to use a custom position take a look at [Custom positioning](../05-Positioning%20&%20Sensors/05-Custom%20Positioning.md).
 
 Currently, only one of navigation and simulation can be active at a time, regardless of the number of maps present within the application.
 
@@ -210,25 +210,19 @@ The `error` provided by the callback function can have the following values:
 
 The navigation can be stopped at any moment or it will be stopped when we reach the destination.
 
-![Navigating On Route](/assets/images/example_android_navigation1-7f573ae70dc31cd43f9f05bf4d05bc3b.png "Navigating on route")
+![Navigating On Route](../assets/images/example_android_navigation1-7f573ae70dc31cd43f9f05bf4d05bc3b.png "Navigating on route")
 
-**Navigating on route**
+Navigating on route
 
-Typically (optional), before starting navigation, we instruct the map to begin following the user's position. More information about the `followPosition` method and related customization options can be found inside the [Show your location on the map](/05-Positioning%20&%20Sensors/04-Show%20Location%20on%20Map.md) guide.
+Typically (optional), before starting navigation, we instruct the map to begin following the user's position. More information about the `followPosition` method and related customization options can be found inside the [Show your location on the map](../05-Positioning%20&%20Sensors/04-Show%20Location%20on%20Map.md) guide.
 
-To enhance navigation clarity, the route is displayed on a map. This also includes turn-by-turn navigation arrows that disappear once the user has passed them. More about presenting routes [here](/04-Maps/05-Display%20Map%20Items/05-Display%20Routes.md).
-
-![Navigating On Displayed Route](/assets/images/vid-navigating_displayed_route.png "Navigating on displayed route")
-
-> ⚠️ **DANGER** **{TODO} Add Video**
-
-**Navigating on displayed route**
+To enhance navigation clarity, the route is displayed on a map. This also includes turn-by-turn navigation arrows that disappear once the user has passed them. More about presenting routes [here](../04-Maps/05-Display%20Map%20Items/05-Display%20Routes.md).
 
 Navigating on said route will change color of parsed route portion with `traveledInnerColor` parameter of `UnlRouteRenderSettings`.
 
-![Parsed Route Displayed in Default Gray Color](/assets/images/example_android_navigation3-12e14cdfe4c699889f3a15ffb3078ea7.png "Parsed route is displayed with a gray color (default)")
+![Parsed Route Displayed in Default Gray Color](../assets/images/example_android_navigation3-12e14cdfe4c699889f3a15ffb3078ea7.png "Parsed route is displayed with a gray color (default)")
 
-**Parsed route is displayed with a gray color (default)**
+Parsed route is displayed with a gray color (default)
 
 ## Starting a simulation[​](#starting-a-simulation "Direct link to Starting a simulation")
 
@@ -478,7 +472,7 @@ Navigation typically relies on the current GPS position. However, it is also ent
 
 This can be done by creating a custom data source, setting the position service to the given data source, starting the data source and starting navigation as you would with live data source.
 
-See the [custom positioning guide](/05-Positioning%20&%20Sensors/05-Custom%20Positioning.md) for more information on how to create a custom data source.
+See the [custom positioning guide](../05-Positioning%20&%20Sensors/05-Custom%20Positioning.md) for more information on how to create a custom data source.
 
 ## Stop navigation/simulation[​](#stop-navigationsimulation "Direct link to Stop navigation/simulation")
 
