@@ -44,7 +44,6 @@ UnlRect currentViewport = mapView != null ? mapView.getViewport() : null;
 This viewport can be useful when you need to use methods such as `centerOnRectArea`.
 
 > 📝 **Info**
->
 >The width and height of the map view is measured in physical pixels. To transform them into logical pixels you may need to consider the device's pixel density.
 
 ## Map centering[​](#map-centering "Direct link to Map centering")
@@ -239,9 +238,10 @@ if (mapView != null) {
 
 ```
 
-![Centered at one-third of map height](../assets/images/example_android_center_coordinates1-853e1f8276fc6928f48b7ce0e5b30686.png "Centered at one-third of map height")
+![Centered at one-third of map height](../assets/images/example_android_center_coordinates1-853e1f8276fc6928f48b7ce0e5b30686.png "Centered at one-third of map height") 
+Centered at one-third of map height
 
-**Centered at one-third of map height**
+
 
 > 💡 **Tip**
 >
@@ -399,12 +399,10 @@ if (paddedTopLeftCoordinate != null && paddedBottomRightCoordinate != null && ma
 ```
 
 ![Route without padding](../assets/images/example_android_area_without_padding-3d5f7629b87218a4b791f6bac186c8df.png "Route without padding")
-
-**Route without padding**
+Route without padding
 
 ![Route with center padding](../assets/images/example_android_area_with_padding-c8433c256f28fc4c50b343ecf80ec86e.png "UnlRoute with center padding")
-
-**Route with center padding**
+Route with center padding
 
 <br />
 
@@ -513,12 +511,10 @@ if (mapView != null && mapView.getPreferences() != null) {
 ```
 
 ![Map with 60 view angle](../assets/images/example_android_map_perspective2-6954172f469464edf0fbb7b1f0c6e81c.png "Map with a view angle of 60 degrees")
-
-**Map with a view angle of 60 degrees**
+Map with a view angle of 60 degrees
 
 ![Map with 0 view angle](../assets/images/example_android_map_perspective1-9fdfe174c35c8d75411182803654b551.png "Map with a view angle of 0 degrees")
-
-**Map with a view angle of 0 degrees**
+Map with a view angle of 0 degrees
 
 <br />
 
@@ -563,13 +559,10 @@ if (mapView != null && mapView.getPreferences() != null) {
 By default, the map perspective is three-dimensional.
 
 ![Two dimensional map](../assets/images/example_android_map_perspective3-18356dff297d2fa86e6c5d67a5d1f260.png "Map with a two-dimensional perspective")
-
-
-**Map with a two-dimensional perspective**
+Map with a two-dimensional perspective
 
 ![Three dimensional map](../assets/images/example_android_map_perspective4-24db7e5d4fe3aea3a9f8eb27ce207119.png "Map with a three-dimensional perspective")
-
-**Map with a three-dimensional perspective**
+Map with a three-dimensional perspective
 
 <br />
 
@@ -759,8 +752,7 @@ service.startDownload(areas, new UnlProgressListener() {
 When tiles are downloaded, the `notifyComplete` callback is invoked with an `ErrorCode` parameter indicating the success or failure of the operation. If the download is successful, the error will be `ErrorCode.Success`. Downloaded tiles are stored in the cache and can be used later for features such as viewing map content without requiring an internet connection.
 
 ![Maptiles centered in the middle](../assets/images/example_android_downloaded_tiles-736bc4a9c8e1f95cac393f1c73b7c408.png "Maptiles centered in the middle")
-
-**Downloaded tiles centered in the middle, top and bottom tiles are not available**
+Downloaded tiles centered in the middle, top and bottom tiles are not available
 
 > 📝 **Info**
 > UnlSearchService.search method will return an error when trying to search in a downloaded tiles area as it requires indexing, which is not available for downloaded tiles.
