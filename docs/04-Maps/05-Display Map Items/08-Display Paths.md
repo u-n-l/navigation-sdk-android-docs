@@ -1,6 +1,6 @@
 # Display paths
 
-[Paths](/03-Core/02-Base%20Entities.md#path) can be displayed by adding them into `UnlMapViewPathCollection`. The `UnlMapViewPathCollection` is an iterable collection, having fields like `size`, `add`, `remove`, `removeAt`, `getPathAt` and `getPathByName`.
+[Paths](../03-Core/02-Base%20Entities.md#path) can be displayed by adding them into `UnlMapViewPathCollection`. The `UnlMapViewPathCollection` is an iterable collection, having fields like `size`, `add`, `remove`, `removeAt`, `getPathAt` and `getPathByName`.
 
 * Kotlin
 * Java
@@ -56,9 +56,9 @@ if (path.getArea() != null) {
 
 ```
 
-![Path displayed](/assets/images/example_android_present_path1-78e8b11c2ba2e4b023e383379e4edb5c.png "Path displayed")
+![Path displayed](../../assets/images/example_android_present_path1-78e8b11c2ba2e4b023e383379e4edb5c.png "Path displayed")
 
-**Path displayed**
+Path displayed
 
 ## Convenience methods[​](#convenience-methods "Direct link to Convenience methods")
 
