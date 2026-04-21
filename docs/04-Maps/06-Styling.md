@@ -352,13 +352,13 @@ if (mapView != null && mapView.getPreferences() != null) {
 
 A smooth transition can be enabled by passing the `smoothTransition` parameter of `setMapStyleByDataBuffer` as true.
 
-![Default map style](/assets/images/example_android_assets_map_style1-2c6b563c9645e62897fc75deb63446ed.png "Default map style")
+![Default map style](../assets/images/example_android_assets_map_style1-2c6b563c9645e62897fc75deb63446ed.png "Default map style")
 
-**Default map style**
+Default map style
 
-![Custom map style](/assets/images/example_android_assets_map_style2-de1e843588d613f7a4503abe5e81e4de.png "Custom added map style")
+![Custom map style](../assets/images/example_android_assets_map_style2-de1e843588d613f7a4503abe5e81e4de.png "Custom added map style")
 
-**Custom added map style**
+Custom added map style
 
 <br />
 
