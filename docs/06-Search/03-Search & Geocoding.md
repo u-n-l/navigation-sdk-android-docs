@@ -406,7 +406,7 @@ if (externalInfo.hasWikiInfo(landmark)) {
 
 ```
 
-See the [Location Wikipedia guide](/01-Overview/04-Todo.md) for more info.
+See the [Location Wikipedia guide](../01-Overview/04-Todo.md) for more info.
 
 ## Get auto-suggestions[​](#get-auto-suggestions "Direct link to Get auto-suggestions")
 
