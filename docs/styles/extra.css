@@ -215,6 +215,7 @@
 .md-content img,
 article img {
   max-width: 500px !important;
+  width: 100% !important;
   height: auto !important;
   display: block !important;
   margin-bottom: 4px;
