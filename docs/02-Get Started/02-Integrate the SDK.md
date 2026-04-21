@@ -13,12 +13,11 @@ Download and install Android Studio from the official [Android Developer website
 
 After you download the UNL Navigation SDK for Android `.aar` file then create the following project structure: **your\_project/app/libs/**. Add the `.aar` in the **libs** directory and the following code inside the dependencies block from the module-level `build.gradle.kts` file to include the Navigation SDK for Android:
 
+**Kotlin:**
 ```
-kotlin
 dependencies {
     implementation(files("libs/<AAR_FILE>.aar"))
 }
-
 ```
 
 You are now ready to go to the next step: [Implement the application code](/02-Get%20Started/03-Create%20Your%20First%20App.md#implement-the-application-code).
