@@ -212,7 +212,7 @@ SdkCall.execute(() -> {
 
 > 💡 **TIP**
 >
-> The `UnlPath` object associated to a path based landmark can be modified using the `trackData` property available on the `UnlLandmark` object. See the [Landmarks guide](/03-Core/04-Landmarks.md) for more details about this.
+> The `UnlPath` object associated to a path based landmark can be modified using the `trackData` property available on the `UnlLandmark` object. See the [Landmarks guide](../03-Core/04-Landmarks.md) for more details about this.
 
 > 🚨 **DANGER**
 >
