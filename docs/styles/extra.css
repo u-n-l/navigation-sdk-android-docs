@@ -214,7 +214,7 @@
 .md-typeset img,
 .md-content img,
 article img {
-  max-width: 500px !important;
+  max-width: 300px !important;
   width: 100% !important;
   height: auto !important;
   display: block !important;
