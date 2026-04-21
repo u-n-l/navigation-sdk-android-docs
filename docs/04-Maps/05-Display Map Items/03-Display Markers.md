@@ -2,15 +2,15 @@
 
 The base class for the marker hierarchy is `UnlMarker`. It encapsulates coordinates assigned to a specific part. Multiple coordinates can be added to the same marker and be separated into different parts. If no part is specified, the coordinates are added to a default part, indexed as 0. The coordinates are stored in a list-like structure, where you can specify their index explicitly. By default, the index is set to -1, meaning the coordinate will be appended to the end of the list.
 
-![Display marker with coordinates on different parts](/assets/images/example_android_polyline_marker_part1-10444789a0e20d05469cc9feaaac91f8.png "Displaying a marker with coordinates separated into different parts")
+![Display marker with coordinates on different parts](../assets/images/example_android_polyline_marker_part1-10444789a0e20d05469cc9feaaac91f8.png "Displaying a marker with coordinates separated into different parts")
 
-**Displaying a marker with coordinates separated into different parts**
+Displaying a marker with coordinates separated into different parts
 
 <br/>
 
-![Display marker with coordinaes on same part](/assets/images/example_android_polyline_marker_part2-50c9ac8fc608c36f88e4535d394bab5f.png "Displaying a marker with coordinates added to same part")
+![Display marker with coordinaes on same part](../assets/images/example_android_polyline_marker_part2-50c9ac8fc608c36f88e4535d394bab5f.png "Displaying a marker with coordinates added to same part")
 
-**Displaying a marker with coordinates added to same part**
+Displaying a marker with coordinates added to same part
 
 <br />
 
@@ -133,29 +133,29 @@ mapView.centerOnArea(markerCollection.getArea());
 
 The result will be the following:
 
-![Display point-type markers](/assets/images/example_android_point_marker1-c5e990489e9bd9837607e1f2cf5edc8a.png "Displaying point-type markers on map")
+![Display point-type markers](../assets/images/example_android_point_marker1-c5e990489e9bd9837607e1f2cf5edc8a.png "Displaying point-type markers on map")
 
-**Displaying point-type markers on map**
+Displaying point-type markers on map
 
 <br />
 
 > ⚠️ **Warning**
 >
-> By default, point-type markers appear as blue circles up to a specific zoom level. When the zoom threshold is exceeded, they automatically cluster into orange circles, and at higher levels of clustering, they transition to red circles. Learn more at [UnlMarker Clustering](/04-Maps/05-Display%20Map%20Items/03-Display%20Markers.md#marker-clustering)
+> By default, point-type markers appear as blue circles up to a specific zoom level. When the zoom threshold is exceeded, they automatically cluster into orange circles, and at higher levels of clustering, they transition to red circles. Learn more at [UnlMarker Clustering](../04-Maps/05-Display%20Map%20Items/03-Display%20Markers.md#marker-clustering)
 
 ### Polyline Type UnlMarker[​](#polyline-type-marker "Direct link to Polyline Type UnlMarker")
 
 This type of marker is designed to display a continuous line consisting of one or more connected straight-line segments. To use it, ensure the `UnlMarkerCollection` specifies `type` as `EMarkerType.Polyline`. It's important to note that markers can include multiple coordinates, which may or may not belong to the same part. UnlCoordinates within the same part are connected by a polyline, which is red by default, while coordinates outside the part remain unconnected.
 
-For more information, see [Markers section](/03-Core/05-Markers.md#types-of-markers).
+For more information, see [Markers section](../03-Core/05-Markers.md#types-of-markers).
 
 ### Polygon Type UnlMarker[​](#polygon-type-marker "Direct link to Polygon Type UnlMarker")
 
 This type of marker is designed to display a closed two-dimensional figure composed of straight-line segments that meet at their endpoints. To use it, ensure the `UnlMarkerCollection` specifies `type` as `EMarkerType.Polygon`.
 
-![Polygon betwwn three coordinates](/assets/images/example_android_draw_shapes2-247a39ea2f2d1f3739d0142a94a7b732.png "Polygon drawn between three coordinates")
+![Polygon betwwn three coordinates](../assets/images/example_android_draw_shapes2-247a39ea2f2d1f3739d0142a94a7b732.png "Polygon drawn between three coordinates")
 
-**Polygon drawn between three coordinates**
+Polygon drawn between three coordinates
 
 <br />
 
@@ -215,13 +215,13 @@ if (mapView.getPreferences() != null) {
 
 The above code will result in the following marker appearance:
 
-![Display marker with text above icon](/assets/images/example_android_marker_labeling1-92db1a97a5467adf8778211f942891ef.png "Displaying a marker with text above icon")
+![Display marker with text above icon](../assets/images/example_android_marker_labeling1-92db1a97a5467adf8778211f942891ef.png "Displaying a marker with text above icon")
 
-**Displaying a marker with text above icon**
+Displaying a marker with text above icon
 
-![Display marker with text centered on icon](/assets/images/example_android_marker_labeling2-d2ddba0463f2b3845fce1681e69926e6.png "Displaying a marker with text centered on icon")
+![Display marker with text centered on icon](../assets/images/example_android_marker_labeling2-d2ddba0463f2b3845fce1681e69926e6.png "Displaying a marker with text centered on icon")
 
-**Displaying a marker with text centered on icon**
+Displaying a marker with text centered on icon
 
 <br />
 
@@ -257,9 +257,9 @@ renderSettings.setImage(image);
 
 Code above is setting a custom icon to a marker. The result is the following:
 
-![Display point-type marker with render](/assets/images/example_android_point_marker2-0df928d5d4efb09b74c909f06f5767e6.png "Displaying point-type markers with render settings")
+![Display point-type marker with render](../assets/images/example_android_point_marker2-0df928d5d4efb09b74c909f06f5767e6.png "Displaying point-type markers with render settings")
 
-**Displaying point-type markers with render settings**
+Displaying point-type markers with render settings
 
 #### UnlMarker Sketches[​](#marker-sketches "Direct link to UnlMarker Sketches")
 
@@ -328,9 +328,9 @@ if (sketches != null) {
 
 ```
 
-![Display marker using MarkerSketches](/assets/images/example_android_marker_sketches1-3236890bc87792743656ddc287ad5b2c.png "Displaying a marker using MarkerSketches")
+![Display marker using MarkerSketches](../assets/images/example_android_marker_sketches1-3236890bc87792743656ddc287ad5b2c.png "Displaying a marker using MarkerSketches")
 
-**Displaying a marker using MarkerSketches**
+Displaying a marker using MarkerSketches
 
 In order to change a marker's appearance after it has been added to a `MarkerSketches` collection, you can use `setRenderSettings` method:
 
@@ -384,13 +384,11 @@ if (sketches != null) {
 ```
 
 > 🚨 **Danger**
->
 > Calling `getRenderSettings` with an invalid index will return a `UnlMarkerRenderSettings` object with default values.
 
 The `MarkerSketches` collection does not need to be added to `MapViewMarkerCollections`, as it is already part of it. Any changes made to the `MarkerSketches` collection will be automatically reflected on the map.
 
 > 💡 **Tip**
->
 > Adding a `MarkerSketches` object to `MapViewMarkerCollections` with `UnlMarkerCollectionRenderSettings` will be overwritten by the individual `UnlMarkerRenderSettings` of markers from the collection.
 
 ### UnlMarker Clustering[​](#marker-clustering "Direct link to UnlMarker Clustering")
@@ -426,9 +424,9 @@ mapView.centerOnCoordinates(new UnlCoordinates(52.14611, 1.06215), 70);
 
 ```
 
-![Unclustered markers](/assets/images/example_android_marker_grouping1-83f1a3dc40fae4b3ce3fb2616ce35a0f.png "Markers not clustering")
+![Unclustered markers](../assets/images/example_android_marker_grouping1-83f1a3dc40fae4b3ce3fb2616ce35a0f.png "Markers not clustering")
 
-**Markers not clustering**
+Markers not clustering
 
 * Kotlin
 * Java
@@ -464,9 +462,9 @@ mapView.centerOnCoordinates(new UnlCoordinates(52.14611, 1.06215), 70);
 
 ```
 
-![Clustered markers](/assets/images/example_android_marker_grouping2-a67d97faa319983edf86c0df61e82a0a.png "Clustered markers")
+![Clustered markers](../assets/images/example_android_marker_grouping2-a67d97faa319983edf86c0df61e82a0a.png "Clustered markers")
 
-**Clustered markers**
+Clustered markers
 
 > 📝 **Info**
 >
