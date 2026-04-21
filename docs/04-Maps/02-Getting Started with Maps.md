@@ -6,7 +6,7 @@ The Navigation SDK for Android delivers powerful mapping capabilities, enabling 
 
 See the [Code Implementation section from Create your first app guide](/02-Get%20Started/03-Create%20Your%20First%20App.md#implement-the-application-code) for a complete example of displaying a basic map in your application.
 
-![Display default day map](/assets/images/example_android_hello_map1-bdb5edaa18b263ef6f5eca72726c2f8c.png "Displaying a default day map")
+![Display default day map](../assets/images/example_android_hello_map1-bdb5edaa18b263ef6f5eca72726c2f8c.png "Displaying a default day map")
 
 **Displaying a default day map**
 
@@ -51,21 +51,22 @@ The `UnlMapSurfaceView` class is the primary component for displaying maps in an
 
 You can configure `UnlMapSurfaceView` behavior using XML attributes:
 
-```xml
+```
 <com.unlmap.sdk.core.UnlMapSurfaceView
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:createDefaultMapView="true"
     app:autoReleaseOnDetachedFromWindow="true"
     app:sdkToken="your_sdk_service_key" />
-
 ```
+
 
 | Attribute                         | Type      | Default | Description                |
 | --------------------------------- | --------- | ------- | -------------------------------------------------------- |
 | `createDefaultMapView`            | `Boolean` | `true`  | Whether to automatically create a default UnlMapView        |
 | `autoReleaseOnDetachedFromWindow` | `Boolean` | `true`  | Whether to automatically release resources when detached |
 | `sdkToken`                        | `String`  | `null`  | SDK authorization token                                  |
+
 
 ### Methods[​](#methods "Direct link to Methods")
 
@@ -74,12 +75,13 @@ You can configure `UnlMapSurfaceView` behavior using XML attributes:
 | `release()`               | Releases the drawing context and associated resources              |
 | `releaseDefaultMapView()` | Releases only the default UnlMapView while keeping the surface active |
 
+
 ### Usage Example[​](#usage-example "Direct link to Usage Example")
 
 * Kotlin
 * Java
 
-```kotlin
+```
 // Kotlin
 // In your Activity or Fragment
 val UnlMapSurfaceView = findViewById<UnlMapSurfaceView>(R.id.UnlMapSurfaceView)
@@ -100,7 +102,7 @@ parentLayout.addView(UnlMapSurfaceView)
 
 ```
 
-```java
+```
 // Java
 // In your Activity or Fragment
 UnlMapSurfaceView UnlMapSurfaceView = findViewById(R.id.UnlMapSurfaceView);
@@ -126,7 +128,7 @@ parentLayout.addView(UnlMapSurfaceView);
 * Kotlin
 * Java
 
-```kotlin
+```
 // Kotlin
 val UnlMapSurfaceView = UnlMapSurfaceView(
     context = this,
@@ -138,7 +140,7 @@ val UnlMapSurfaceView = UnlMapSurfaceView(
 
 ```
 
-```java
+```
 // Java
 UnlMapSurfaceView UnlMapSurfaceView = new UnlMapSurfaceView(
     this,
