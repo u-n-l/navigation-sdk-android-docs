@@ -247,7 +247,7 @@ The `Voice` class provides the following details:
 >
 >#### Relevance[​](#relevance "Direct link to Relevance")
 >
->* `UnlLanguage` is relevant for both the built-in TTS system and custom solutions using the `onNavigationSound` callback. See the [internationalization guide](/01-Overview/04-Todo.md) for more info about the `UnlLanguage` class.
+>* `UnlLanguage` is relevant for both the built-in TTS system and custom solutions using the `onNavigationSound` callback. See the [internationalization guide](../01-Overview/04-Todo.md) for more info about the `UnlLanguage` class.
 >* `Voice` is relevant **only** for the built-in voice-guidance (using human and computer voices) playback.
 
 > 🚨 **DANGER**
@@ -343,7 +343,7 @@ if (items != null) {
 
 > 💡 **TIP**
 >
-> Check the [Manage Content Guide](/01-Overview/04-Todo.md) for information about managing voices and performing operations such as downloading, deleting, and more and details about the `ContentStore` and `ContentStoreItem` classes.
+> Check the [Manage Content Guide](../01-Overview/04-Todo.md) for information about managing voices and performing operations such as downloading, deleting, and more and details about the `ContentStore` and `ContentStoreItem` classes.
 
 ### Apply a Voice by path[​](#apply-a-voice-by-path "Direct link to Apply a Voice by path")
 
