@@ -114,11 +114,10 @@ if (mapView != null) {
 ```
 
 > 💡 **Tip**
->
 > You can call the `skipAnimation()` method of `UnlMapView` to bypass the animation. To check if an animation is in progress the `isAnimationInProgress()` method can be used. To check if the camera is moving (as a consequence of an animation or not), the `isCameraMoving()` method can be used.
 
+
 > 🚨 **Danger**
->
 > Do not confuse the `zoomLevel` with the `slippyZoomLevel`. The `slippyZoomLevel` is a value linked with the tile system.
 
 ### Converting between screen and WGS coordinates[​](#converting-between-screen-and-wgs-coordinates "Direct link to Converting between screen and WGS coordinates")
@@ -157,7 +156,6 @@ if (coordsToCenter != null && mapView != null) {
 ```
 
 > 📝 **Info**
->
 > If the applied style includes elevation and terrain data is loaded, the `transformScreenToWgs` method returns `UnlCoordinates` objects that include altitude.
 
 To convert WGS coordinates to screen coordinates, the `UnlMapView.transformWgsToScreen()` method is used:
@@ -190,7 +188,6 @@ UnlXy screenPosition = mapView != null ? mapView.transformWgsToScreen(wgsCoordin
 ```
 
 > 💡 **Tip**
->
 > In order to convert a screen rectangle to a list of WGS geographic areas, use `UnlMapView.transformScreenToWgsListArea` method.
 
 This centers the view precisely on the specified coordinates, positioning them at the cursor position (which by default is in the center of the screen).
@@ -199,9 +196,7 @@ This centers the view precisely on the specified coordinates, positioning them a
 
 To center on a different area of the viewport (not the cursor position), provide an `xy` parameter, represented as an `UnlXy`. Note that `x` coordinate should be in \[0, `viewport.width`] and `y` coordinate between \[0, `viewport.height`].
 
-> 🚨 **Danger**
->
-> The `xy` parameter is defined in physical pixels.
+> 🚨 **Danger** The `xy` parameter is defined in physical pixels.
 
 The following example demonstrates how to center the map at one-third of its height:
 
@@ -244,7 +239,7 @@ if (mapView != null) {
 
 ```
 
-![Centered at one-third of map height](/assets/images/example_android_center_coordinates1-853e1f8276fc6928f48b7ce0e5b30686.png "Centered at one-third of map height")
+![Centered at one-third of map height](../assets/images/example_android_center_coordinates1-853e1f8276fc6928f48b7ce0e5b30686.png "Centered at one-third of map height")
 
 **Centered at one-third of map height**
 
@@ -294,11 +289,10 @@ This will center the view on the geographic area ensuring the `RectangleGeograph
 Alternatively, to center the `RectangleGeographicArea` on a specific region of the viewport, you can use the `centerOnRectArea` method. This requires passing the `viewRc` parameter, represented as a `UnlRect`, which defines the targeted region of the screen. The `UnlRect` passed to the `viewRc` parameter determines the positioning of the centered area relative to the top-left coordinates. Consequently, the bottom-right corner will be at `left` + `UnlRect`'s width and `top` + `UnlRect`'s height.
 
 > 📝 **Info**
->
 > As the width and height of `UnlRect` decrease, the centering will result in a more zoomed-out view. For a more zoomed-in perspective, use larger values within the range \[1, viewport.width - x] and \[1, viewport.height - y].
 
+
 > 💡 **Tip**
->
 > Use the `getOptimalRoutesCenterViewport` and `getOptimalHighlightCenterViewport` methods to compute the viewport region that best fits given routes and highlights.
 
 ### Map centering on area with padding[​](#map-centering-on-area-with-padding "Direct link to Map centering on area with padding")
@@ -404,18 +398,17 @@ if (paddedTopLeftCoordinate != null && paddedBottomRightCoordinate != null && ma
 
 ```
 
-![Route without padding](/assets/images/example_android_area_without_padding-3d5f7629b87218a4b791f6bac186c8df.png "Route without padding")
+![Route without padding](../assets/images/example_android_area_without_padding-3d5f7629b87218a4b791f6bac186c8df.png "Route without padding")
 
 **Route without padding**
 
-![Route with center padding](/assets/images/example_android_area_with_padding-c8433c256f28fc4c50b343ecf80ec86e.png "UnlRoute with center padding")
+![Route with center padding](../assets/images/example_android_area_with_padding-c8433c256f28fc4c50b343ecf80ec86e.png "UnlRoute with center padding")
 
 **Route with center padding**
 
 <br />
 
 > 🚨 **Danger**
->
 > When applying padding, note that the height is measured in physical pixels. A conversion may be required depending on your use case.
 
 ## Map zoom[​](#map-zoom "Direct link to Map zoom")
@@ -519,11 +512,11 @@ if (mapView != null && mapView.getPreferences() != null) {
 
 ```
 
-![Map with 60 view angle](/assets/images/example_android_map_perspective2-6954172f469464edf0fbb7b1f0c6e81c.png "Map with a view angle of 60 degrees")
+![Map with 60 view angle](../assets/images/example_android_map_perspective2-6954172f469464edf0fbb7b1f0c6e81c.png "Map with a view angle of 60 degrees")
 
 **Map with a view angle of 60 degrees**
 
-![Map with 0 view angle](/assets/images/example_android_map_perspective1-9fdfe174c35c8d75411182803654b551.png "Map with a view angle of 0 degrees")
+![Map with 0 view angle](../assets/images/example_android_map_perspective1-9fdfe174c35c8d75411182803654b551.png "Map with a view angle of 0 degrees")
 
 **Map with a view angle of 0 degrees**
 
@@ -533,16 +526,7 @@ To adjust the camera's perspective dynamically, you can utilize both the `tiltAn
 
 The difference between the different types of angles is shown below:
 
-> ⚠️ **DANGER** **{TODO} Image/Video missing in original document**
-
-**Tilt angle & view angle**
-
-**Rotation angle**
-
-<br />
-
 > 📝 **Info**
->
 > Keep in mind that adjusting the rotation value produces different outcomes depending on the camera's tilt. When the camera is tilted, changing the rotation will shift the target location, whereas with no tilt, the target location remains fixed.
 
 ## Map perspective[​](#map-perspective "Direct link to Map perspective")
@@ -578,12 +562,12 @@ if (mapView != null && mapView.getPreferences() != null) {
 
 By default, the map perspective is three-dimensional.
 
-![Two dimensional map](/assets/images/example_android_map_perspective3-18356dff297d2fa86e6c5d67a5d1f260.png "Map with a two-dimensional perspective")
+![Two dimensional map](../assets/images/example_android_map_perspective3-18356dff297d2fa86e6c5d67a5d1f260.png "Map with a two-dimensional perspective")
 
 
 **Map with a two-dimensional perspective**
 
-![Three dimensional map](/assets/images/example_android_map_perspective4-24db7e5d4fe3aea3a9f8eb27ce207119.png "Map with a three-dimensional perspective")
+![Three dimensional map](../assets/images/example_android_map_perspective4-24db7e5d4fe3aea3a9f8eb27ce207119.png "Map with a three-dimensional perspective")
 
 **Map with a three-dimensional perspective**
 
@@ -592,7 +576,6 @@ By default, the map perspective is three-dimensional.
 A three-dimensional perspective gives buildings a realistic, 3D appearance, while a two-dimensional perspective makes them appear as flat shapes.
 
 > 📝 **Info**
->
 > To ensure three-dimensional buildings are visible, the camera angle should not be perpendicular to the map. Instead, the view angle must be less than 90 degrees.
 
 The same effect can be implemented more precisely using the `tiltAngle`/`viewAngle` fields.
@@ -680,8 +663,8 @@ if (state != null && mapView.getCamera() != null) {
 Alternatively the `position` and `orientation` can be stored and restored separately using the provided properties.
 
 > 📝 **Info**
->
 > Please note that `saveCameraState` does not contain information about the current style.
+
 
 ## Download individual map tiles[​](#download-individual-map-tiles "Direct link to Download individual map tiles")
 
@@ -721,8 +704,8 @@ int updatedMaxSquareKm = service.getMaxSquareKm();
 The larger the area, the more tiles can be downloaded, which can lead to increased memory usage. The default value is 1000 square kilometers.
 
 > 🚨 **Danger**
->
 > If the `RectangleGeographicArea` surface exceeds the `maxSquareKm`, the `UnlMapDownloaderService` will return `UnlError.OutOfRange`.
+
 
 Downloading tiles is done by calling the `startDownload` method of `UnlMapDownloaderService` like so:
 
@@ -775,27 +758,25 @@ service.startDownload(areas, new UnlProgressListener() {
 
 When tiles are downloaded, the `notifyComplete` callback is invoked with an `ErrorCode` parameter indicating the success or failure of the operation. If the download is successful, the error will be `ErrorCode.Success`. Downloaded tiles are stored in the cache and can be used later for features such as viewing map content without requiring an internet connection.
 
-![Maptiles centered in the middle](/assets/images/example_android_downloaded_tiles-736bc4a9c8e1f95cac393f1c73b7c408.png "Maptiles centered in the middle")
+![Maptiles centered in the middle](../assets/images/example_android_downloaded_tiles-736bc4a9c8e1f95cac393f1c73b7c408.png "Maptiles centered in the middle")
 
 **Downloaded tiles centered in the middle, top and bottom tiles are not available**
 
 > 📝 **Info**
->
 > UnlSearchService.search method will return an error when trying to search in a downloaded tiles area as it requires indexing, which is not available for downloaded tiles.
 
 Download can be canceled by calling the `cancelDownload` method of `UnlMapDownloaderService` and the `notifyComplete` callback will be invoked with `ErrorCode.Cancelled`.
 
 > 💡 **Tip**
->
 > Trying to download previously downloaded tiles will not result in an error, as downloaded tiles are present inside the application's cache folder as data files.
+
 
 You can access detailed download statistics for map tiles using the `transferStatistics` property.
 
 > 🚨 **Danger**
->
 > Downloaded map tiles via `UnlMapDownloaderService` do not support operations such as free-text search, routing, or turn-by-turn navigation while offline. They are primarily intended for caching map data for visual display purposes only.
 >
->For full offline functionality, including search and navigation, refer to the [Manage Offline Content Guide](/01-Overview/04-Todo.md) to learn how to download roadmap data designed for full offline use.
+> For full offline functionality, including search and navigation, refer to the [Manage Offline Content Guide](../01-Overview/04-Todo.md) to learn how to download roadmap data designed for full offline use.
 
 ## Change map settings while following the current position[​](#change-map-settings-while-following-the-current-position "Direct link to Change map settings while following the current position")
 
@@ -816,4 +797,4 @@ FollowPositionPreferences preferences = mapView.getPreferences() != null ? mapVi
 
 ```
 
-See the [customize follow position settings guide](/05-Positioning%20&%20Sensors/04-Show%20Location%20on%20Map.md#customize-follow-position-settings) for more details.
+See the [customize follow position settings guide](../05-Positioning%20&%20Sensors/04-Show%20Location%20on%20Map.md#customize-follow-position-settings) for more details.
