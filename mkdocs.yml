@@ -1,0 +1,43 @@
+site_name: Navigation SDK Documentation for Android
+site_url: https://u-n-l.github.io/navigation-sdk-android
+
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+  - pymdownx.details
+
+nav:
+  - Home: index.md
+  - Overview: 01-Overview/index.md
+  - Get Started: 02-Get Started/index.md
+  - Core: 03-Core/index.md
+  - Maps: 04-Maps/index.md
+  - Positioning & Sensors: 05-Positioning & Sensors/index.md
+  - Search: 06-Search/index.md
+  - Routing: 07-Routing/index.md
+  - Navigation: 08-Navigation/index.md
+  - Offline: 09-Offline/index.md
+  - Alarms: 10-Alarms/index.md
+  - Driver Behaviour: 11-Driver Behaviour.md
+  - Public Transit Stops: 12-Public Transit Stops.md
+  - Location Wikipedia: 13-Location Wikipedia.md
+  - Weather: 14-Weather.md
+  - Settings Service: 15-Settings Service.md
+  - Social Reports: 16-Social Reports.md
+  - Timezone Service: 17-Timezone Service.md
+  
+
