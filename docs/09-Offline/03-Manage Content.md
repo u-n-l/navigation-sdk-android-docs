@@ -481,7 +481,7 @@ if (contentStoreItem.canDeleteContent){
 >* The `ContentStore` API is designed for **downloading full offline content**, including data required for features such as free-text search, routing, and turn-by-turn navigation.
 >* In contrast, the `UnlMapDownloaderService` is intended for caching map tiles mainly for visual display purposes. Tiles downloaded via `UnlMapDownloaderService` **do not support** most search operations, routing or navigation while offline.
 >
-> See the [download individual map tiles documentation](/04-Maps/03-Adjust%20the%20Map%20View.md#download-individual-map-tiles) for more details about the `UnlMapDownloaderService`.
+> See the [download individual map tiles documentation](../04-Maps/03-Adjust%20the%20Map%20View.md#download-individual-map-tiles) for more details about the `UnlMapDownloaderService`.
 
 Also, do not confuse the `UnlLandmarkStore` class with the `ContentStore` class. The `UnlLandmarkStore` is a collection used for managing landmark data, while the `ContentStore` is a service used for managing offline map content.
 
@@ -544,9 +544,9 @@ if (errorCode == UnlError.NoError) {
 
 After enabling the offline data grabber, the overlay data will be automatically downloaded when a map region is downloaded or updated. The overlay items will then be available in offline mode within the downloaded map regions. You can verify if the overlay data has been successfully downloaded if overlay items are visible inside the downloaded map region in offline mode.
 
-![Offline Speed Camera Overlay](/assets/images/example_android_offline_overlay_visible-f2c08dd016b614575567e240e483285d.png "Offline speed camera overlay item visible")
+![Offline Speed Camera Overlay](../assets/images/example_android_offline_overlay_visible-f2c08dd016b614575567e240e483285d.png "Offline speed camera overlay item visible")
 
-**Offline speed camera overlay item visible**
+Offline speed camera overlay item visibl
 
 > 💡 **TIP**
 >
