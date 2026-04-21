@@ -266,7 +266,7 @@ To receive updates about changes in the current position, we can register a call
 
 > 💡 **Tip**
 >
-> Consult the [Positions guide](/03-Core/03-Positions.md) for more information about the `UnlPositionData` class and the differences between raw positions and map matched position.
+> Consult the [Positions guide](../03-Core/03-Positions.md) for more information about the `UnlPositionData` class and the differences between raw positions and map matched position.
 
 ### Raw positions[​](#raw-positions "Direct link to Raw positions")
 
