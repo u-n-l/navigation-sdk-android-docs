@@ -21,13 +21,13 @@ mapView.centerOnRoute(route);
 
 ```
 
-![Route displayed](/assets/images/example_android_display_routes1-34c95d1808aec210f42ad26316ac1f67.png "Route displayed")
+![Route displayed](../../assets/images/example_android_display_routes1-34c95d1808aec210f42ad26316ac1f67.png "Route displayed")
 
-**Route displayed**
+Route displayed
 
 > 💡 **Tip**
 >
-> To center on a route with padding, refer to the [Adjust Map View](/04-Maps/03-Adjust%20the%20Map%20View.md#map-centering-on-area-with-padding) guide. Utilize the `rect` parameter in the `centerOnRoute` method to define the specific region of the viewport that should be centered.
+> To center on a route with padding, refer to the [Adjust Map View](../04-Maps/03-Adjust%20the%20Map%20View.md#map-centering-on-area-with-padding) guide. Utilize the `rect` parameter in the `centerOnRoute` method to define the specific region of the viewport that should be centered.
 
 * Kotlin
 * Java
@@ -56,9 +56,9 @@ mapView.centerOnRoutes(routes);
 
 ```
 
-![Three routes displayed](/assets/images/example_android_display_routes2-e3a8baf962dfaff34b34e8492767dda7.png "Three routes displayed, one in the middle is main")
+![Three routes displayed](../../assets/images/example_android_display_routes2-e3a8baf962dfaff34b34e8492767dda7.png "Three routes displayed, one in the middle is main")
 
-**Three routes displayed, one in the middle is main**
+Three routes displayed, one in the middle is main
 
 Route appearance on map can be customized via `UnlRouteRenderSettings` when added, passed to the `MapViewRoutesCollection.addWithRenderSettings()` method, or later on, via `UnlMapViewRoute.renderSettings` setter.
 
@@ -112,9 +112,9 @@ if (mapViewRoute != null) {
 
 All dimensional sizes within the `UnlRouteRenderSettings` are measured in millimeters.
 
-![Route with custom render](/assets/images/example_android_display_routes3-00b0a6b388e968aa4118c093540eb04a.png "Route displayed with custom render settings")
+![Route with custom render](../../assets/images/example_android_display_routes3-00b0a6b388e968aa4118c093540eb04a.png "Route displayed with custom render settings")
 
-**Route displayed with custom render settings**
+Route displayed with custom render settings
 
 ### Convenience methods[​](#convenience-methods "Direct link to Convenience methods")
 
@@ -194,9 +194,9 @@ if (mapView.getPreferences() != null) {
 
 ```
 
-![Route with label](/assets/images/example_android_route_label1-dae1f891a5944b71918a083ce9ff5cf1.png "Route with label")
+![Route with label](../../assets/images/example_android_route_label1-dae1f891a5944b71918a083ce9ff5cf1.png "Route with label")
 
-**Route with label**
+Route with label
 
 You can enhance the label by adding up to **two icons** using the `images` parameter, which accepts an `UnlImageList`. Available icons can be accessed through the `UnlImageDatabase` class.
 
@@ -238,9 +238,9 @@ if (mapView.getPreferences() != null) {
 
 ```
 
-![Label with custom icons](/assets/images/example_android_custom_label-29dcfb5bcd11419df53ec869661fa601.png "Label with custom icons")
+![Label with custom icons](../../assets/images/example_android_custom_label-29dcfb5bcd11419df53ec869661fa601.png "Label with custom icons")
 
-**Label with custom icons**
+Label with custom icons
 
 The label can also be auto-generated using route information:
 
@@ -275,9 +275,9 @@ if (mapView.getPreferences() != null) {
 
 ```
 
-![Route with generated label](/assets/images/example_android_route_label2-a6681a848d0ff0ac5b76af93a2e6c114.png "Route with generated label")
+![Route with generated label](../../assets/images/example_android_route_label2-a6681a848d0ff0ac5b76af93a2e6c114.png "Route with generated label")
 
-**Route with generated label**
+Route with generated label
 
 The label of a route added to the collection can be hidden by calling `MapViewRoutesCollection.hideLabel(route)`. Labels can also be managed through a `UnlMapViewRoute` object. The `label` property is used to assign a label, while the `hideLabel()` method can be used to hide it.
 
