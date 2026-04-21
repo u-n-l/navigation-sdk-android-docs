@@ -4,7 +4,7 @@ The Navigation SDK for Android delivers powerful mapping capabilities, enabling 
 
 ## Display a map[​](#display-a-map "Direct link to Display a map")
 
-See the [Code Implementation section from Create your first app guide](/02-Get%20Started/03-Create%20Your%20First%20App.md#implement-the-application-code) for a complete example of displaying a basic map in your application.
+See the [Code Implementation section from Create your first app guide](../02-Get%20Started/03-Create%20Your%20First%20App.md#implement-the-application-code) for a complete example of displaying a basic map in your application.
 
 ![Display default day map](../assets/images/example_android_hello_map1-bdb5edaa18b263ef6f5eca72726c2f8c.png "Displaying a default day map")
 
@@ -51,13 +51,14 @@ The `UnlMapSurfaceView` class is the primary component for displaying maps in an
 
 You can configure `UnlMapSurfaceView` behavior using XML attributes:
 
-```
+```xml
 <com.unlmap.sdk.core.UnlMapSurfaceView
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:createDefaultMapView="true"
     app:autoReleaseOnDetachedFromWindow="true"
     app:sdkToken="your_sdk_service_key" />
+
 ```
 
 
@@ -81,7 +82,7 @@ You can configure `UnlMapSurfaceView` behavior using XML attributes:
 * Kotlin
 * Java
 
-```
+```kotlin
 // Kotlin
 // In your Activity or Fragment
 val UnlMapSurfaceView = findViewById<UnlMapSurfaceView>(R.id.UnlMapSurfaceView)
@@ -102,7 +103,7 @@ parentLayout.addView(UnlMapSurfaceView)
 
 ```
 
-```
+```java
 // Java
 // In your Activity or Fragment
 UnlMapSurfaceView UnlMapSurfaceView = findViewById(R.id.UnlMapSurfaceView);
@@ -128,7 +129,7 @@ parentLayout.addView(UnlMapSurfaceView);
 * Kotlin
 * Java
 
-```
+```kotlin
 // Kotlin
 val UnlMapSurfaceView = UnlMapSurfaceView(
     context = this,
@@ -140,7 +141,7 @@ val UnlMapSurfaceView = UnlMapSurfaceView(
 
 ```
 
-```
+```java
 // Java
 UnlMapSurfaceView UnlMapSurfaceView = new UnlMapSurfaceView(
     this,
@@ -151,3 +152,4 @@ UnlMapSurfaceView UnlMapSurfaceView = new UnlMapSurfaceView(
 );
 
 ```
+
