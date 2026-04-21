@@ -217,11 +217,11 @@ if (trafficEvents != null) {
 
 ```
 
-Check the [Traffic Events guide](/03-Core/10-Traffic%20Events.md) for more details.
+Check the [Traffic Events guide](../03-Core/10-Traffic%20Events.md) for more details.
 
 ## Display routes on map[​](#display-routes-on-map "Direct link to Display routes on map")
 
-After calculating the routes, they are not automatically displayed on the map. To visualize and center the map on the route, refer to the [display routes on maps](/04-Maps/05-Display%20Map%20Items/05-Display%20Routes.md) related documentation. The Navigation SDK for Android offers extensive customization options, allowing for flexible preferences to tailor the display to your needs.
+After calculating the routes, they are not automatically displayed on the map. To visualize and center the map on the route, refer to the [display routes on maps](../04-Maps/05-Display%20Map%20Items/05-Display%20Routes.md) related documentation. The Navigation SDK for Android offers extensive customization options, allowing for flexible preferences to tailor the display to your needs.
 
 ## Get the Terrain Profile[​](#get-the-terrain-profile "Direct link to Get the Terrain Profile")
 
@@ -357,13 +357,13 @@ if (terrainProfile != null) {
 
 `EUnlSurfaceType` possible values are: Asphalt, Paved, Unpaved, Unknown.
 
-![Route Profile Chart](/assets/images/example_android_route_profile1-70286625435ec7075489059bf58b9419.png "Route profile chart")
+![Route Profile Chart](../assets/images/example_android_route_profile1-70286625435ec7075489059bf58b9419.png "Route profile chart")
 
-**Route profile chart**
+Route profile chart
 
-![Route Profile Sections](/assets/images/example_android_route_profile2-54285f32c7f962bdee095d6ae4aa73fa.png "Route profile sections")
+![Route Profile Sections](../assets/images/example_android_route_profile2-54285f32c7f962bdee095d6ae4aa73fa.png "Route profile sections")
 
-**Route profile sections**
+Route profile sections
 
 <br />
 
@@ -402,9 +402,9 @@ Here's an example of how to access and use this information, focusing on some ke
 | isTollRoad                                | Boolean                | Returns true if the route instruction is a toll road.                                                              |
 | isCommon                                  | Boolean                | Check if this instruction is of common type.                                                                       |
 
-![Route Instructions List](/assets/images/example_android_route_instructions-b63ede328c9eae67dc10e4accff18f65.png "List containing route instructions")
+![Route Instructions List](../assets/images/example_android_route_instructions-b63ede328c9eae67dc10e4accff18f65.png "List containing route instructions")
 
-**List containing route instructions**
+List containing route instructions
 
 Data from the instruction list above is obtained via the following properties of `UnlRouteInstruction`:
 
