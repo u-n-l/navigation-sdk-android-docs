@@ -211,10 +211,11 @@
   color: rgba(255, 255, 255, 0.85);
 }
 
-.md-typeset img {
-  max-width: 150px;
-  height: auto;
-  vertical-align: top;
-  display: block;
+.md-typeset img,
+.md-content img,
+article img {
+  max-width: 150px !important;
+  height: auto !important;
+  display: block !important;
   margin-bottom: 4px;
 }
