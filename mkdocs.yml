@@ -3,12 +3,20 @@ site_url: https://u-n-l.github.io/navigation-sdk-android-docs/
 
 theme:
   name: material
+  logo: assets/UNL logo_white.svg
+  favicon: assets/Flavicon.png
+  font:
+    text: Poppins
+    code: JetBrains Mono
   features:
     - navigation.sections
     - navigation.expand
     - navigation.top
     - search.suggest
     - search.highlight
+
+extra_css:
+  - styles/extra.css
 
 plugins:
   - search
