@@ -212,7 +212,9 @@
 }
 
 .md-typeset img {
-  max-width: 400px;
+  max-width: 300px;
   height: auto;
   vertical-align: top;
+  display: block;
+  margin-bottom: 4px;
 }
