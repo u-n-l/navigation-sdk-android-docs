@@ -190,7 +190,7 @@ The difference between images obtained via `abstractGeometryImg` (left) and `tur
 | ![Turn Details](../assets/icons/turn_details.png) | ![Turn UnlImage](../assets/icons/turn_image.png) |
 
 <br />
-
+ 
 * **abstractGeometryImg**: Provides a detailed representation of the entire intersection, offering a comprehensive view of the turn geometry. This image can be customized, including options to adjust various colors for better visual alignment with the application's theme.
 * **turnImage**: Delivers a simplified schematic of the upcoming turn, focusing solely on the essential turn direction. Unlike abstractGeometryImg, this method does not support customization.
 
