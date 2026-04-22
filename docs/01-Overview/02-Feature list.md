@@ -10,8 +10,8 @@ UNL Navigation SDK for Android includes:
     - **Voice Guidance**: Optional voice guidance available in multiple languages, enhancing the navigation experience.
   
 - **Offline Functionality**:
-  - **Offline Map**s: Download maps and use them offline, ensuring uninterrupted service even in areas without internet connectivity.
-  - **Offline Features**: Key features such as mapping, searching, routing, and turn-by-turn navigation continue to work seamlessly offline.
+    - **Offline Maps**: Download maps and use them offline, ensuring uninterrupted service even in areas without internet connectivity.
+    - **Offline Features**: Key features such as mapping, searching, routing, and turn-by-turn navigation continue to work seamlessly offline.
 
 - **Customizable Routing**: Flexible routing options, allowing developers to customize routing preferences based on specific requirements
 - **Real-UnlTime Traffic and Incident Information**: Integration of real-time traffic data and incident updates to adjust routes dynamically and improve accuracy.
