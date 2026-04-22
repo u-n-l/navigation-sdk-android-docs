@@ -13,7 +13,7 @@ The SDK is designed for performance and flexibility, giving developers control o
 - [Navigation](./08-Navigation/01-index.md)
 - [Offline](./09-Offline/01-index.md)
 - [Alarms](./10-Alarms/01-index.md)
-- [Driver Behaviour](./11-Driver%20Behaviour.md)
+- [Driver Behavior](./11-Driver%20Behavior.md)
 - [Public Transit Stops](./12-Public%20Transit%20Stops.md)
 - [Location Wikipedia](./13-Location%20Wikipedia.md)
 - [Weather](./14-Weather/01-index.md)
