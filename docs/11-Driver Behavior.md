@@ -2,7 +2,7 @@
 
 The Driver Behaviour feature enables the analysis and scoring of a driver's behavior during a trip, identifying risky driving patterns and summarizing them with safety scores. This feature tracks both real-time and session-level driving events, such as harsh braking, cornering, or ignoring traffic signs, and evaluates overall risk using multiple criteria.
 
-This data can be used to offer user feedback, identify unsafe habits, and assess safety levels over time. All information is processed using on-device sensor data (via the configured `DataSource`) and optionally matched to the road network if `useMapMatchedPosition` is enabled.
+This data can be used to offer user feedback, identify unsafe habits, and assess safety levels over time. All information is processed using on-device sensor data (via the configured `DataSource`) and optionally matched to the road network if `useMapMatchedPosition` is enabled. 
 
 ## Starting and Stopping Analysis[​](#starting-and-stopping-analysis "Direct link to Starting and Stopping Analysis")
 
