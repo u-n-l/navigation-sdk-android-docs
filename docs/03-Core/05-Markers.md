@@ -92,7 +92,7 @@ Markers are **not** designed for route calculation.
 >
 > To enable route calculation and navigation, create a new landmark using the relevant coordinates of the marker and a representative name and use that object for routing.
 
-## UnlMarker[​](#marker "Direct link to UnlMarker")
+## Marker[​](#marker "Direct link to Marker")
 
 | Name                                                                   | Type                    | Description                                                                                         |
 | ---------------------------------------------------------------------- | ----------------------- | --------------------------------------------------------------------------------------------------- |
@@ -109,7 +109,7 @@ Markers are **not** designed for route calculation.
 | `add(coordinates: UnlCoordinates, index: Int, part: Int)`                 | Unit                    | Adds coordinates to the marker at the specified index and part.                                     |
 | `add(latitude: Double, longitude: Double, index: Int, part: Int)`      | Unit                    | Adds coordinates to the marker using latitude and longitude values at the specified index and part. |
 
-## UnlMarkerCollection[​](#markercollection "Direct link to UnlMarkerCollection")
+## MarkerCollection[​](#markercollection "Direct link to MarkerCollection")
 
 The `UnlMarkerCollection` class is the main collection holding markers. All the markers within a collection have the same type and are styled in the same way.
 
