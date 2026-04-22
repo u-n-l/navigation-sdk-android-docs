@@ -34,10 +34,10 @@ nav:
   - Navigation: 08-Navigation/01-index.md
   - Offline: 09-Offline/01-index.md
   - Alarms: 10-Alarms/01-index.md
-  - Driver Behaviour: 11-Driver Behaviour.md
+  - Driver Behaviour: 11-Driver Behavior.md
   - Public Transit Stops: 12-Public Transit Stops.md
   - Location Wikipedia: 13-Location Wikipedia.md
-  - Weather: 14-Weather.md
+  - Weather: 14-Weather/01-index.md
   - Settings Service: 15-Settings Service.md
   - Social Reports: 16-Social Reports.md
   - Timezone Service: 17-Timezone Service.md
