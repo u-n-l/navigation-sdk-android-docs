@@ -115,6 +115,7 @@ if (recorder == null) {
 > The `UnlError.General` result might be returned if the application has been sent to background without making the required configuration. See the [record while app is in background](#record-while-app-is-in-background) section below.
 >
 > Always ensure that the `EDataType` values passed to the `types` parameter are supported by the target platform.
+> 
 
 
 > 💡 **TIP**
@@ -125,7 +126,7 @@ if (recorder == null) {
 >* Java
 >
 >
-> ```kotlin
+>```kotlin
 > // Kotlin
 > import android.content.Context
 > import java.io.File
