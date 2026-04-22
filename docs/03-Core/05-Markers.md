@@ -19,7 +19,7 @@ Markers can be instantiated via:
 
 > 🚨 **Danger**
 >
-> Creating a marker does not automatically display it on the map. Ensure you set its coordinates and attach it to the desired map. Refer to the [Display markers guide](/04-Maps/05-Display%20Map%20Items/03-Display%20Markers.md) for detailed instructions.
+> Creating a marker does not automatically display it on the map. Ensure you set its coordinates and attach it to the desired map. Refer to the [Display markers guide](../04-Maps/05-Display%20Map%20Items/03-Display%20Markers.md) for detailed instructions.
 
 ## Types of Markers[​](#types-of-markers "Direct link to Types of Markers")
 
@@ -37,17 +37,17 @@ A marker can be rendered in multiple ways on the map, either through default set
 * A polygon drawn with custom collors for border and shape.
 * A polyline having an associated image at each point
 
-**Point marker**
+Point marker
 
-![Point marker](/assets/images/markerPOI-969016c7920bddf74e0f619d4aa8fe80.png "Point marker")
+![Point marker](../assets/images/markerPOI-969016c7920bddf74e0f619d4aa8fe80.png "Point marker")
 
-**Polyline marker with point markers at each point**
+Polyline marker with point markers at each point
 
-![Polyline marker with pois](/assets/images/polylineWithPOIs-531e26b86d3622dba94452217847a142.png "Polyline marker with pois")
+![Polyline marker with pois](../assets/images/polylineWithPOIs-531e26b86d3622dba94452217847a142.png "Polyline marker with pois")
 
-**Polygon marker**
+Polygon marker
 
-![Polygon marker](/assets/images/markerPolygon-3a012f912ddf32888cf7d0a16013236f.png "Polygon marker")
+![Polygon marker](../assets/images/markerPolygon-3a012f912ddf32888cf7d0a16013236f.png "Polygon marker")
 
 ## Customization options[​](#customization-options "Direct link to Customization options")
 
