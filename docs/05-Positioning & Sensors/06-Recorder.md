@@ -125,12 +125,12 @@ if (recorder == null) {
 >* Java
 >
 >
->```kotlin
->// Kotlin
->import android.content.Context
->import java.io.File
+> ```kotlin
+> // Kotlin
+> import android.content.Context
+> import java.io.File
 >
->fun getTracksPath(context: Context): String {
+> fun getTracksPath(context: Context): String {
 >    val rootDir = context.getExternalFilesDir(null)
 >    val tracksDir = File(rootDir, "Data/Tracks")
 >
@@ -139,9 +139,9 @@ if (recorder == null) {
 >    }
 >
 >    return tracksDir.absolutePath
->}
+> }
 >
->```
+> ```
 >
 >```java
 >// Java
@@ -297,6 +297,8 @@ if (errorStop != UnlError.NoError) {
 >
 > The `startRecording` and `stopRecording` methods should be called appropriately to ensure proper execution. Otherwise it may lead to unexpected behavior.
 
+
+
 > 💡 **TIP**
 >
 > Don't forget to request permission for location usage before starting a recorder.
@@ -420,6 +422,8 @@ if (errorStop != UnlError.NoError) {
 >
 > The audio recording will result in a log file of type `.mp4`. This file also contains the binary data of a `.gm` file, but it is accessible by system players.
 
+
+
 > 🚨 **DANGER**
 >
 > Don't forget to request permission for microphone usage if you set the `enableAudio` parameter to `true`.
@@ -502,9 +506,13 @@ if (errorStop != UnlError.NoError) {
 >
 > The camera recording will result in a log file of type `.mp4`. This file also contains the binary data of a `.gm` file, but it is accessible by system players.
 
+
+
 > 🚨 **DANGER**
 >
 > Don't forget to request permission for camera usage if you add the `EDataType.Camera` parameter to `types`.
+
+
 
 > ⚠️ **WARNING**
 >
@@ -608,9 +616,13 @@ if (errorStop != UnlError.NoError) {
 >
 > The audio recording will result in a log file of type `.mp4`. This file also contains the binary data of a `.gm` file, but it is accessible by system players.
 
+
+
 > 🚨 **DANGER**
 >
 > Don't forget to request permission for camera and microphone usage if you set the `enableAudio` parameter to `true` and add the `EDataType.Camera` parameter to `types`.
+
+
 
 > 🚨 **DANGER**
 >
