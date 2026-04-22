@@ -220,3 +220,12 @@ article img {
   display: block !important;
   margin-bottom: 4px;
 }
+
+.md-typeset ul ul {
+  list-style-type: circle;
+  margin-left: 1.5em;
+}
+
+.md-typeset ul ul ul {
+  list-style-type: square;
+}
