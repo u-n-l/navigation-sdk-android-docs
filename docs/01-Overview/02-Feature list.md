@@ -6,8 +6,8 @@ UNL Navigation SDK for Android includes:
 - **3D Terrain Topography**: A visually immersive experience with detailed 3D terrain modeling.
 - **Lightweight and Efficient**: Designed for high performance, the SDKs run smoothly even on lower-resource devices
 - **Optimized Navigation**:
-  - **Turn-by-Turn Navigation**: Offers optimized routing for car, pedestrian, and bicycle navigation, ensuring accurate and efficient routes tailored to each mode of transportation.
-  - **Voice Guidance**: Optional voice guidance available in multiple languages, enhancing the navigation experience.
+    - **Turn-by-Turn Navigation**: Offers optimized routing for car, pedestrian, and bicycle navigation, ensuring accurate and efficient routes tailored to each mode of transportation.
+    - **Voice Guidance**: Optional voice guidance available in multiple languages, enhancing the navigation experience.
   
 - **Offline Functionality**:
   - **Offline Map**s: Download maps and use them offline, ensuring uninterrupted service even in areas without internet connectivity.
