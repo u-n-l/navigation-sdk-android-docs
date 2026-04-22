@@ -6,7 +6,7 @@ In order to define overlay data you can use the UNL Studio. It allows uploading 
 
 > ⚠️ **Warning**
 >
-> If the corresponding map region has been downloaded locally, overlays will not be available in offline mode unless they are downloaded as well. Refer to the [Downloading overlays](/01-Overview/04-Todo.md) guide for more details.
+> If the corresponding map region has been downloaded locally, overlays will not be available in offline mode unless they are downloaded as well. Refer to the [Downloading overlays](../01-Overview/04-Todo.md) guide for more details.
 >
 > Most overlay features require a `UnlMap` widget and a style containing the overlay to be applied.
 
@@ -91,33 +91,33 @@ An **OverlayItem** represents a single item within an overlay. It contains speci
 
 ##### Safety overlay items examples:[​](#safety-overlay-items-examples "Direct link to Safety overlay items examples:")
 
-![Speed Limit Overlay Item](/assets/images/example_speed_limit-a97c79c826062eb46fc71b07ae0c7237.png "Speed limit overlay item")
+![Speed Limit Overlay Item](../assets/images/example_speed_limit-a97c79c826062eb46fc71b07ae0c7237.png "Speed limit overlay item")
 
-**Speed limit overlay item**
+Speed limit overlay item
 
-![Red Light Control Overlay Item](/assets/images/example_red_light_control-1588c5ecc8ee6e30188c85d80439f172.png "Red light control overlay item")
+![Red Light Control Overlay Item](../assets/images/example_red_light_control-1588c5ecc8ee6e30188c85d80439f172.png "Red light control overlay item")
 
-**Red light control overlay item**
+Red light control overlay item
 
 ##### Public Transport overlay items example:[​](#public-transport-overlay-items-example "Direct link to Public Transport overlay items example:")
 
-![Bus Station Overlay Items](/assets/images/example_bus_station_overlay-68e85e6389e9502288a8f15df1805e98.png "Bus station overlay items")
+![Bus Station Overlay Items](../assets/images/example_bus_station_overlay-68e85e6389e9502288a8f15df1805e98.png "Bus station overlay items")
 
-**Bus station overlay items**
+Bus station overlay items
 
-![Train Station Overlay Items](/assets/images/example_train_stations_overlay-85e6798219f58de98b108648cb8c52c3.png "Train station overlay items")
+![Train Station Overlay Items](../assets/images/example_train_stations_overlay-85e6798219f58de98b108648cb8c52c3.png "Train station overlay items")
 
-**Train station overlay items**
+Train station overlay items
 
 ##### Social reports overlay items examples:[​](#social-reports-overlay-items-examples "Direct link to Social reports overlay items examples:")
 
-![Constructions Overlay Item](/assets/images/example_constructions_overlay-5db7f219b17edd3193e581b8c3bbc38f.png "Constructions overlay item")
+![Constructions Overlay Item](../assets/images/example_constructions_overlay-5db7f219b17edd3193e581b8c3bbc38f.png "Constructions overlay item")
 
-**Constructions overlay item**
+Constructions overlay item
 
-![Fixed Camera Overlay Item](/assets/images/example_fixed_camera_overlay-c3cadf31ce8682122a5d896c817c944b.png "Fixed camera overlay item")
+![Fixed Camera Overlay Item](../assets/images/example_fixed_camera_overlay-c3cadf31ce8682122a5d896c817c944b.png "Fixed camera overlay item")
 
-**Fixed camera overlay item**
+Fixed camera overlay item
 
 ## Interaction with overlays[​](#interaction-with-overlays "Direct link to Interaction with overlays")
 
@@ -308,11 +308,11 @@ int errorCodeWhileDisabling = service.disableOverlayOfflineDataGrabber(overlayId
 
 ### Selecting overlay items[​](#selecting-overlay-items "Direct link to Selecting overlay items")
 
-Overlay items are selectable. When a user taps or clicks, you can identify specific overlay items programmatically (e.g., through the function `cursorSelectionOverlayItems()`). Please refer to the [Map Selection Functionality](/docs/android/guides/maps/interact-with-map.md#map-selection-functionality) guide for more details.
+Overlay items are selectable. When a user taps or clicks, you can identify specific overlay items programmatically (e.g., through the function `cursorSelectionOverlayItems()`). Please refer to the [Map Selection Functionality](../04-Maps/04-Interact%20with%20the%20Map.md) guide for more details.
 
 ### Searching overlay items[​](#searching-overlay-items "Direct link to Searching overlay items")
 
-Overlays are searchable in multiple ways, typically by setting the appropriate properties in the search preferences during a regular search. More details can be found within the [Get started with Search](/docs/android/guides/search/get-started-search.md) guide.
+Overlays are searchable in multiple ways, typically by setting the appropriate properties in the search preferences during a regular search. More details can be found within the [Get started with Search](../06-Search/02-Get%20Started%20with%20Search.md) guide.
 
 ### Calculating route with overlay items[​](#calculating-route-with-overlay-items "Direct link to Calculating route with overlay items")
 
@@ -395,7 +395,7 @@ if (parameters != null) {
 
 ### Get notifications when approaching overlay items[​](#get-notifications-when-approaching-overlay-items "Direct link to Get notifications when approaching overlay items")
 
-Alarms can be configured to notify users when they approach specific overlay items from selected overlays. See the [Landmarks and overlay alarms](/01-Overview/04-Todo.md) guide for more details about implementing this feature.
+Alarms can be configured to notify users when they approach specific overlay items from selected overlays. See the [Landmarks and overlay alarms](../01-Overview/04-Todo.md) guide for more details about implementing this feature.
 
 ### Highlight overlay items on the map[​](#highlight-overlay-items-on-the-map "Direct link to Highlight overlay items on the map")
 
