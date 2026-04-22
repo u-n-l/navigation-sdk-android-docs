@@ -30,4 +30,4 @@ dependencies {
 }
 ```
 
-You are now ready to go to the next step: [Implement the application code](/02-Get%20Started/03-Create%20Your%20First%20App.md#implement-the-application-code).
+You are now ready to go to the next step: [Implement the application code](../02-Get%20Started/03-Create%20Your%20First%20App.md#implement-the-application-code).
