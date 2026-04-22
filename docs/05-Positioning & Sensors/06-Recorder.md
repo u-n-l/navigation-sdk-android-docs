@@ -116,12 +116,14 @@ if (recorder == null) {
 >
 > Always ensure that the `EDataType` values passed to the `types` parameter are supported by the target platform.
 
+
 > 💡 **TIP**
 >
 > The Android file system provides external storage paths for saving recordings. The following snippet shows how to obtain a valid folder path:
 >
 >* Kotlin
 >* Java
+>
 >
 >```kotlin
 >// Kotlin
