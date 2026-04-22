@@ -58,7 +58,7 @@ The key must be put in the `AndroidManifest.xml` file, inside the `<application>
 
 ## Integrate the Navigation SDK for Android[​](#integrate-the-maps-sdk-for-android "Direct link to Integrate the Navigation SDK for Android")
 
-See the [Integrate the SDK](/02-Get%20Started/02-Integrate%20the%20SDK.md) guide to add the SDK to your project.
+See the [Integrate the SDK](../02-Get%20Started/02-Integrate%20the%20SDK.md) guide to add the SDK to your project.
 
 ## Implement the application code[​](#implement-the-application-code "Direct link to Implement the application code")
 
