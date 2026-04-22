@@ -248,7 +248,7 @@ private Bitmap getNextTurnImage(
 
 ```
 
-See the [TurnDetails](/docs/android/guides/core/routes.md#turn-details) guide for more details about the fields within the `UnlTurnDetails` class.
+See the [TurnDetails](../03-Core/08-Routes.md#turn-details) guide for more details about the fields within the `UnlTurnDetails` class.
 
 ### Next next turn details[​](#next-next-turn-details "Direct link to Next next turn details")
 
