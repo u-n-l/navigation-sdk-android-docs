@@ -16,7 +16,7 @@ This tutorial has 4 parts:
 
 ### Create and use a Service API key[​](#create-and-use-an-api-key "Direct link to Create and use an API key")
 
-Follow our [step-by-step guide on UNL Platform](/https://platform.unl.global/developer_portal/docs?page=create_service_account) to create a Service Account and generate your API key and start building your Android solution.
+Follow our [step-by-step guide on UNL Platform](https://platform.unl.global/developer_portal/docs?page=create_service_account) to create a Service Account and generate your API key and start building your Android solution.
 
 >   🚨 **Danger**
 >
