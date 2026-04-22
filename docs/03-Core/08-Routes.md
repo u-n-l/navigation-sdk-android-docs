@@ -16,7 +16,7 @@ Routes cannot be instantiated directly. Instead, they must be computed based on 
 
 > 🚨 **Danger**
 >
->Calculating a route does not automatically display it on the map. Refer to the [Display markers guide](../../04-Maps/05-Display%20Map%20Items/03-Display%20Markers.md) for detailed instructions on how to display one or more routes.
+>Calculating a route does not automatically display it on the map. Refer to the [Display markers guide](../04-Maps/05-Display%20Map%20Items/03-Display%20Markers.md) for detailed instructions on how to display one or more routes.
 
 ## Route specializations[​](#route-specializations "Direct link to Route specializations")
 
