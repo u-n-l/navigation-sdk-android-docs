@@ -12,11 +12,11 @@ A navigable route consists of one or more segments. Each segment represents the 
 
 ## Instantiating Routes[​](#instantiating-routes "Direct link to Instantiating Routes")
 
-Routes cannot be instantiated directly. Instead, they must be computed based on a predefined list of landmarks. For detailed guidance on how to calculate routes, refer to the [Getting Started with Routing Guide](/docs/android/guides/routing/get-started-routing.md).
+Routes cannot be instantiated directly. Instead, they must be computed based on a predefined list of landmarks. For detailed guidance on how to calculate routes, refer to the [Getting Started with Routing Guide](../07-Routing/02-Get%20Started%20with%20Routing.md).
 
 > 🚨 **Danger**
 >
->Calculating a route does not automatically display it on the map. Refer to the [Display markers guide](/docs/android/guides/maps/display-map-items/display-markers.md) for detailed instructions on how to display one or more routes.
+>Calculating a route does not automatically display it on the map. Refer to the [Display markers guide](../../04-Maps/05-Display%20Map%20Items/03-Display%20Markers.md) for detailed instructions on how to display one or more routes.
 
 ## Route specializations[​](#route-specializations "Direct link to Route specializations")
 
@@ -134,9 +134,9 @@ Signposts near roadways typically indicate intersections and directions to vario
 
 Below is an example of a rendered signpost details image:
 
-![](/assets/icons/signpost_image-eeff2259d472a997f59b32830e683611.png "Signpost image")
+![](../assets/icons/signpost_image-eeff2259d472a997f59b32830e683611.png "Signpost image")
 
-**Signpost image captured during highway navigation**
+Signpost image captured during highway navigation
 
 <br />
 
@@ -187,7 +187,7 @@ The difference between images obtained via `abstractGeometryImg` (left) and `tur
 
 | **Turn details abstract image** | **Turn image**|
 | :---: | :---: |
-| ![Turn Details](/assets/icons/turn_details.png) | ![Turn UnlImage](/assets/icons/turn_image.png) |
+| ![Turn Details](../assets/icons/turn_details.png) | ![Turn UnlImage](../assets/icons/turn_image.png) |
 
 <br />
 
@@ -228,9 +228,9 @@ settings.setInactiveOuterColor(Rgba.yellow());
 
 The render settings from above will create the following image when used:
 
-![](/assets/icons/turn_details_customized.png)
+![](../assets/icons/turn_details_customized.png)
 
-**Customized next turn details abstract image**
+Customized next turn details abstract image
 
 #### Turn events[​](#turn-events "Direct link to Turn events")
 
@@ -286,4 +286,4 @@ The render settings from above will create the following image when used:
 
 ## Change the language of the instructions[​](#change-the-language-of-the-instructions "Direct link to Change the language of the instructions")
 
-The texts used in route instructions and related classes follow the language set in the SDK. See [the internationalization guide](/01-Overview/04-Todo.md) for more details.
+The texts used in route instructions and related classes follow the language set in the SDK. See [the internationalization guide](../01-Overview/04-Todo.md) for more details.
